@@ -26,7 +26,7 @@ from requests import get
 from json import loads
 
 def weatherForecaste(city):
-    WEATHER_API_KEY = '77bf9f4f76e5b6e3c666eebe684edb81'
+    WEATHER_API_KEY = 'Your_API_KEY'
 
     try:
         response = get(f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}")
