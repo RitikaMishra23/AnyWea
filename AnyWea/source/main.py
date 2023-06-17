@@ -3,7 +3,7 @@ import os
 import modules.functions as function
 import modules.speech as speech
 import modules.getIntent as Intent
-import modules.detect as detect
+
 
 # create an object from speech module
 engine = speech.Speech()
